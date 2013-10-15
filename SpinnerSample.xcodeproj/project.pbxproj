@@ -16,6 +16,13 @@
 		9FEDA80A180D35740086771C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA809180D35740086771C /* Default.png */; };
 		9FEDA80C180D35740086771C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA80B180D35740086771C /* Default@2x.png */; };
 		9FEDA80E180D35740086771C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA80D180D35740086771C /* Default-568h@2x.png */; };
+		9FEDA816180D35EF0086771C /* SpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEDA815180D35EF0086771C /* SpinnerViewController.m */; };
+		9FEDA819180D36040086771C /* SpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEDA818180D36040086771C /* SpinnerView.m */; };
+		9FEDA81C180D365D0086771C /* refresh_spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA81A180D365C0086771C /* refresh_spinner.png */; };
+		9FEDA81D180D365D0086771C /* refresh_spinner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA81B180D365C0086771C /* refresh_spinner@2x.png */; };
+		9FEDA81F180D40810086771C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEDA81E180D40810086771C /* QuartzCore.framework */; };
+		9FEDA822180D43AB0086771C /* refresh_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA820180D43AB0086771C /* refresh_background.png */; };
+		9FEDA823180D43AB0086771C /* refresh_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEDA821180D43AB0086771C /* refresh_background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,15 @@
 		9FEDA809180D35740086771C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9FEDA80B180D35740086771C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9FEDA80D180D35740086771C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9FEDA814180D35EF0086771C /* SpinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerViewController.h; sourceTree = "<group>"; };
+		9FEDA815180D35EF0086771C /* SpinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerViewController.m; sourceTree = "<group>"; };
+		9FEDA817180D36040086771C /* SpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerView.h; sourceTree = "<group>"; };
+		9FEDA818180D36040086771C /* SpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerView.m; sourceTree = "<group>"; };
+		9FEDA81A180D365C0086771C /* refresh_spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_spinner.png; sourceTree = "<group>"; };
+		9FEDA81B180D365C0086771C /* refresh_spinner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_spinner@2x.png"; sourceTree = "<group>"; };
+		9FEDA81E180D40810086771C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9FEDA820180D43AB0086771C /* refresh_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_background.png; sourceTree = "<group>"; };
+		9FEDA821180D43AB0086771C /* refresh_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEDA81F180D40810086771C /* QuartzCore.framework in Frameworks */,
 				9FEDA7F8180D35740086771C /* UIKit.framework in Frameworks */,
 				9FEDA7FA180D35740086771C /* Foundation.framework in Frameworks */,
 				9FEDA7FC180D35740086771C /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +68,7 @@
 		9FEDA7EB180D35740086771C = {
 			isa = PBXGroup;
 			children = (
+				9FEDA81E180D40810086771C /* QuartzCore.framework */,
 				9FEDA7FD180D35740086771C /* SpinnerSample */,
 				9FEDA7F6180D35740086771C /* Frameworks */,
 				9FEDA7F5180D35740086771C /* Products */,
@@ -78,9 +96,17 @@
 		9FEDA7FD180D35740086771C /* SpinnerSample */ = {
 			isa = PBXGroup;
 			children = (
+				9FEDA820180D43AB0086771C /* refresh_background.png */,
+				9FEDA821180D43AB0086771C /* refresh_background@2x.png */,
+				9FEDA81A180D365C0086771C /* refresh_spinner.png */,
+				9FEDA81B180D365C0086771C /* refresh_spinner@2x.png */,
 				9FEDA806180D35740086771C /* AppDelegate.h */,
 				9FEDA807180D35740086771C /* AppDelegate.m */,
 				9FEDA7FE180D35740086771C /* Supporting Files */,
+				9FEDA814180D35EF0086771C /* SpinnerViewController.h */,
+				9FEDA815180D35EF0086771C /* SpinnerViewController.m */,
+				9FEDA817180D36040086771C /* SpinnerView.h */,
+				9FEDA818180D36040086771C /* SpinnerView.m */,
 			);
 			path = SpinnerSample;
 			sourceTree = "<group>";
@@ -154,6 +180,10 @@
 				9FEDA80A180D35740086771C /* Default.png in Resources */,
 				9FEDA80C180D35740086771C /* Default@2x.png in Resources */,
 				9FEDA80E180D35740086771C /* Default-568h@2x.png in Resources */,
+				9FEDA81C180D365D0086771C /* refresh_spinner.png in Resources */,
+				9FEDA81D180D365D0086771C /* refresh_spinner@2x.png in Resources */,
+				9FEDA822180D43AB0086771C /* refresh_background.png in Resources */,
+				9FEDA823180D43AB0086771C /* refresh_background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +196,8 @@
 			files = (
 				9FEDA804180D35740086771C /* main.m in Sources */,
 				9FEDA808180D35740086771C /* AppDelegate.m in Sources */,
+				9FEDA816180D35EF0086771C /* SpinnerViewController.m in Sources */,
+				9FEDA819180D36040086771C /* SpinnerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
